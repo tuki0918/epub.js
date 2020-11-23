@@ -1161,6 +1161,7 @@ class Contents {
 			var marginLeft = width - (viewportWidth * scale);
 			this.css("margin-left", marginLeft + "px");
 		}
+		return scale;
 	}
 
 	/**
